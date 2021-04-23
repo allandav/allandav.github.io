@@ -5,12 +5,16 @@ permalink: /research/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+## Working papers
 
-{% include base_path %}
+**Social Learning in a Network Model of COVID-19**
+with Gideon du Rand, Co-Pierre Georg, Tina Koziol and Joeri Schasfoort
+[Paper](http://allandav.github.io/files/papers/social_learning.pdf)
 
-{% for post in site.research reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+**"Do Firms Have a Preference for Paying Exactly Zero Tax?**
+with with Santosh Anagol, Ben Lockwood and Tarun Ramadorai
+[Paper](http://allandav.github.io/files/papers/zero_taxes.pdf)
+
+**"The Cape of Good Homes: The Cape of Good Homes: Exchange Rate Depreciations, Foreign Demand and House Prices**
+with with Co-Pierre Georg
+[Paper](http://allandav.github.io/files/papers/cogh.pdf)
